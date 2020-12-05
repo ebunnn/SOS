@@ -6,7 +6,7 @@ app.static_folder = 'static'
 
 @app.route('/')
 def artist_info(): 
-    return flask.render_template("index.html", test ="hello from templates")
+    return flask.render_template("index.html", test ="hello from template")
 
 app.run(
     port=int(os.getenv('PORT', 8080)),
