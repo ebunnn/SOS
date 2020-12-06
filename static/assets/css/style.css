@@ -424,7 +424,15 @@ h1, h2, h3, h4, h5, h6 {
 .subtitle {
   color: white;
 }
-
+.Song {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.music {
+  color: #103a61;
+  margin-top: 50px;
+  margin-left: 120px;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
