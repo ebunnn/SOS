@@ -243,6 +243,18 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
+  .video11 img {
+    width: 100%;
+    height: 200px;
+  }
+  .video12 img {
+    width: 100%;
+    height: 200px;
+  }
+  .video13 img {
+    width: 100%;
+    height: 200px;
+  } 
 }
 
 /* Mobile Navigation */
@@ -476,15 +488,39 @@ h1, h2, h3, h4, h5, h6 {
    height: 300px;
 } */
 .video11 img {
-  width: 500px;
+  width: 100%;
+  height: 200px;
 }
 .video12 img {
-  width: 500px;
+  width: 100%;
+  height: 200px;
 }
 .video13 img {
-  width: 500px;
+  width: 100%;
+  height: 200px;
+} 
+.gamelink1 {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.gamelink2 {
+  text-decoration: underline;
+  text-decoration-color: white; 
+}
+.gamelink3 {
+  text-decoration: underline;
+  text-decoration-color: white; 
+}
+.gamelink4 {
+  text-decoration: underline;
+  text-decoration-color: white; 
 }
 
+.datesection {
+  height: 40px;
+  width: 300px;
+  margin-top: -100px;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
