@@ -93,6 +93,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   top: 20px;
 }
+#header img {
+  display: inline;
+}
 
 #header .header-container {
   background: #fff;
