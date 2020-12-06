@@ -54,6 +54,26 @@ h1, h2, h3, h4, h5, h6 {
   background: #103a61;
   color: #fff;
 }
+.emotions img {
+  width: 100px;
+  float: left;
+}
+#smiley:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+#superHappy:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+#neutral:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+#frown:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -248,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Navigation */
 .encouragebutton {
   color: white;
-  border-style: solid;
+  border-style: hidden;
   border-color:  #009970;
   background-color: #103a61;
   border-radius: 50%;
@@ -452,7 +472,9 @@ h1, h2, h3, h4, h5, h6 {
   background:#103a61;
   border: 2px solid #103a61;
 }
-
+@media (min-width: 1200px) {
+  
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;

@@ -103,29 +103,42 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <h2>Daily Messages</h2>
+            <iframe class="Song"src={{video}} width="400" height="100"></iframe>
             <button onclick="myFunction()" class="encouragebutton">Click Me!</button>
 
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
-            <p id="demo"></p>
+            <p id="demo">{{quote}}</p>
             <!-- <p>
               {{quote}}
             </p> -->
             <script>
               function myFunction() {
-                var things = ['You can do it!', 'Don\'t give up', 'Everything will be ok'];
+                var things = ['The Best Way To Get Started Is To Quit Talking And Begin Doing.” – Walt Disney', 'Don’t Let Yesterday Take Up Too Much Of Today. – Will Rogers', 'It\’s Not Whether You Get Knocked Down, It’s Whether You Get Up. – Vince Lombardi', 'We May Encounter Many Defeats But We Must Not Be Defeated. – Maya Angelou', 'Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do. – Johann Wolfgang Von Goethe', 'Creativity Is Intelligence Having Fun. – Albert Einstein'];
                 var thing = things[Math.floor(Math.random()*things.length)];
                 document.getElementById("demo").innerHTML = thing;
               }
             </script>
-            <ul>
+            <!-- <ul>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
+            </ul> -->
             <p class="font-italic">
              You accomplished so much more today. Let's do three challenges today to earn 50 pts and get closer to you extra credit goal!
             </p>
+            <div class="emotions">
+              <h3>How Are You Feeling Today?</h3>
+              <p onClick="alertFunc()" id="superHappy"><img src="static/assets/img/superHappy.png" alt="Super Happy"></p>
+              <p onClick="alertFunc()" id="smiley"><img src="static/assets/img/Untitled design (93).png" alt="Smiley face"></p>
+              <p onClick="alertFunc()" id="neutral"><img src="static/assets/img/neutral.png" alt="neutral"></p>
+              <p onClick="alertFunc()" id="frown"><img src="static/assets/img/frown.png" alt="frown"></p>
+              <script>
+                function alertFunc() {
+                  alert("Thanks, your daily emotion has been recorded");
+                }
+              </script>
+            </div>
           </div>
         </div>
 
@@ -140,7 +153,7 @@
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">5</span>
-            <p>Project</p>
+            <p>Projects</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
